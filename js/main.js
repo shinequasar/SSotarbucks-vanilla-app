@@ -39,3 +39,13 @@ window.addEventListener('scroll', _.throttle(function () {
       });
    }
 },300));
+
+
+//-------section 애니메이션-------//
+const fadeEls = document.querySelectorAll('.visual .fade-in');
+fadeEls.forEach(function (fadeEl,index){
+   gsap.to(fadeEl, 1,{
+      delay: (index+1) * .7,  //n번째 * 0.7초 뒤 해당 함수 실행
+      opacity:1
+   });
+});
