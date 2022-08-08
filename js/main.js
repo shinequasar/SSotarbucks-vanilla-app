@@ -1,3 +1,4 @@
+//-------검색창-------//
 const searchEl = document.querySelector('.search');
 const searchInputEl = searchEl.querySelector('input');
 
@@ -19,14 +20,22 @@ searchInputEl.addEventListener('blur', function (){
 });
 
 
+
+//-------뱃지-------//
 const badgeEl = document.querySelector('header .badges');
 
 //lodash 라이브러리를 이용 => _.throttle(실행할 함수, 시간제한)
 window.addEventListener('scroll', _.throttle(function () { 
    console.log(window.scrollY);
    if(window.scrollY > 500) {
-      badgeEl.style.display = 'none';
+      gsap.to(badgeEl, .6, {  //배지 숨기기 => 애니메이션 라이브러리사용 => gsap.to(요소, 지속시간, 옵션);
+         opacity:0,
+         display: 'none'
+      });
    }else{
-      badgeEl.style.display = 'block';
+      gsap.to(badgeEl, .6, { //배지 보이기
+         opacity:1,
+         display: 'block'
+      });
    }
 },300));
