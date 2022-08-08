@@ -21,6 +21,12 @@ searchInputEl.addEventListener('blur', function (){
 
 const badgeEl = document.querySelector('header .badges');
 
-window.addEventListener('scroll', function () {
-   console.log('scroll!');
-});
+//lodash 라이브러리를 이용 => _.throttle(실행할 함수, 시간제한)
+window.addEventListener('scroll', _.throttle(function () { 
+   console.log(window.scrollY);
+   if(window.scrollY > 500) {
+      badgeEl.style.display = 'none';
+   }else{
+      badgeEl.style.display = 'block';
+   }
+},300));
