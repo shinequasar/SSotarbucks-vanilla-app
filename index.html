@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SSOtarbucks Coffee Korea</title>
 
+    <!-- The Open Graph protocol -->
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="SSOtarbucks" />
     <meta property="og:title" content="SSOtarbucks Coffee Korea" />
@@ -14,6 +15,7 @@
     <meta property="og:image" content="./images/starbucks_seo.jpg" />
     <meta property="og:url" content="https://starbucks.co.kr" />
 
+    <!-- Twitter Cards -->
     <meta property="twitter:card" content="summary" />
     <meta property="twitter:site" content="SSOtarbucks" />
     <meta property="twitter:title" content="SSOtarbucks Coffee Korea" />
@@ -26,16 +28,27 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- Material Icons -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="./css/main.css" />
 
+    <!-- reset-css -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
+
+    <!-- swiper8 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"
         integrity="sha512-VEBjfxWUOyzl0bAwh4gdLEaQyDYPvLrZql3pw1ifgb6fhEvZl9iDDehwHZ+dsMzA0Jfww8Xt7COSZuJ/slxc4Q=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+    <!-- lodash.js -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.min.js"
         integrity="sha512-WFN04846sdKMIP5LKNphMaWzU7YpMyCU245etK3g/2ARYbPK9Ub18eG+ljU96qKRCWh+quCY7yefSmlkQw1ANQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
     <script defer src="./js/main.js"></script>
 </head>
 
@@ -408,6 +421,23 @@
             <div class="inner">
                 <div class="inner__left">
                     <h2>공지사항</h2>
+                    <div class="swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <a href="javascript:void(0)">공휴일 & 특별연휴 쏘타벅스 매장 영업시간</a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="javascript:void(0)">[당첨자발표] 2022 플래너 당첨자</a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="javascript:void(0)">쏘타벅스 코리아 앱 버전 업데이트 안내</a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="javascript:void(0)">[당첨자발표] 영수증 당첨이벤트</a>
+                            </div>
+                        </div>
+
+                    </div>
                     <div class="swiper-container"></div>
                     <a href="javascript:void(0)" class="notice-line__more">
                         <div class="material-icons">add_circle</div>
@@ -419,8 +449,39 @@
                     <div class="material-icons">upload</div>
                 </div>
             </div>
-
-               
+        </div>
+        <div class="promotion">
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="./images/promotion_slide1.jpg" alt="지난 쏘타벅스 이벤트">
+                        <a href="javascript:void(0)" class="btn">자세히보기</a>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./images/promotion_slide2.jpg" alt="지난 쏘타벅스 이벤트">
+                        <a href="javascript:void(0)" class="btn">자세히보기</a>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./images/promotion_slide3.jpg" alt="지난 쏘타벅스 이벤트">
+                        <a href="javascript:void(0)" class="btn">자세히보기</a>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./images/promotion_slide4.jpg" alt="지난 쏘타벅스 이벤트">
+                        <a href="javascript:void(0)" class="btn">자세히보기</a>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./images/promotion_slide5.jpg" alt="지난 쏘타벅스 이벤트">
+                        <a href="javascript:void(0)" class="btn">자세히보기</a>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-prev">
+                <div class="material-icons">arrow_back</div>
+            </div>
+            <div class="swiper-next">
+                <div class="material-icons">arrow_forward</div>
+            </div>
         </div>
     </section>
 </body>
