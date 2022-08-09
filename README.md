@@ -15,7 +15,6 @@ starbucks
 ├─ favicon.ico
 ├─ favicon.png
 ├─ images
-│  ├─ .DS_Store
 │  └─ images
 ├─ index.html
 └─ js
@@ -31,7 +30,8 @@ starbucks
 ### 1) reset-css 
 (https://www.jsdelivr.com/package/npm/reset-css)
 - 각 브라우저의 기본스타일 초기화
-```
+
+```html
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
 ```
 </br>
@@ -39,7 +39,8 @@ starbucks
 ### 2) lodash.js
 (https://swiperjs.com/get-started)
 - 다양한 유틸리티 기능을 제공하는 자바스크립트 라이브러리
-```
+
+```html
 <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.min.js" integrity="sha512-WFN04846sdKMIP5LKNphMaWzU7YpMyCU245etK3g/2ARYbPK9Ub18eG+ljU96qKRCWh+quCY7yefSmlkQw1ANQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 ```
 </br>
@@ -47,7 +48,8 @@ starbucks
 ### 3) grap
 (https://cdnjs.com/libraries/gsap)
 - GSAP(The GreenSock Animation Platform): 자바스크립트로 제어하는 타임라인 기반의 애니메이션 라이브러리
-```
+
+```html
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js" integrity="sha512-VEBjfxWUOyzl0bAwh4gdLEaQyDYPvLrZql3pw1ifgb6fhEvZl9iDDehwHZ+dsMzA0Jfww8Xt7COSZuJ/slxc4Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 ```
 </br>
@@ -55,7 +57,8 @@ starbucks
 ### 4) Swiper 8
 (https://swiperjs.com/get-started)
 - Swiper : 하드웨어 가속 전환과 여러 기본 동작을 갖춘 현대적인 슬라이드 라이브러리
-```
+
+```html
 <link
   rel="stylesheet"
   href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
@@ -65,7 +68,7 @@ starbucks
 ```
 
 - swiper 기본 사용레이아웃
-```
+```html
 <!-- Slider main container -->
 <div class="swiper">
   <!-- Additional required wrapper -->
@@ -91,11 +94,11 @@ starbucks
 
 ### 5) Google Material Icons
 - 구글에서 제공하는 머터리얼 아이콘
-```
+```html
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
 ```
 📌 using
-```
+```html
 <div class="material-icons">upload</div>
 ```
 </br>
