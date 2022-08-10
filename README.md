@@ -1,6 +1,8 @@
 ## ☕ 쏘타벅스를 지어보자!
 - vanilla html, css, js 로 개발하는 쏘타벅스
 - 개인연습용 플젝
+- 배포환경 : Netlify 
+- 배포 URL :  [https://silver-marigold-a6b265.netlify.app/](https://silver-marigold-a6b265.netlify.app/)
 
 </br>
 ---
@@ -24,6 +26,13 @@ starbucks
 </br></br>
 
 ---
+
+</br></br>
+## ☕ 쏘타벅스에서 사용한 API
+### 1) Youtube ifram api
+(https://developers.google.com/youtube/iframe_api_reference?hl=ko)
+
+
 </br></br>
 ## ☕ 쏘타벅스에서 사용한 라이브러리 및 CDN
 
