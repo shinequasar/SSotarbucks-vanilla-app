@@ -101,7 +101,17 @@ starbucks
 ```
 </br>
 
-### 5) Google Material Icons
+
+### 5) ScrollMagic 
+(https://cdnjs.com/libraries/ScrollMagic)
+(http://scrollmagic.io/)
+- 스크롤에 의해 동적인 움직임을 주는 스크롤 인터렉션을 구현하는 라이브러리
+```html
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js" integrity="sha512-8E3KZoPoZCD+1dgfqhPbejQBnQfBXe8FuwL4z/c8sTrgeDMFEnoyTlH3obB4/fV+6Sg0a0XF+L/6xS4Xx1fUEg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+```
+</br>
+
+### 6) Google Material Icons
 - 구글에서 제공하는 머터리얼 아이콘
 ```html
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
@@ -112,7 +122,7 @@ starbucks
 ```
 </br>
 
-### 6) Google Fonts
+### 7) Google Fonts
 - Google Fonts에서 제공하는 글꼴 중 나눔고딕 사용.
 ```
   font-family: 'Nanum Gothic', sans-serif;
