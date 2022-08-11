@@ -23,6 +23,7 @@ searchInputEl.addEventListener('blur', function (){
 
 //-------뱃지-------//
 const badgeEl = document.querySelector('header .badges');
+const toTopEl = document.querySelector('#to-top');
 
 //lodash 라이브러리를 이용 => _.throttle(실행할 함수, 시간제한)
 window.addEventListener('scroll', _.throttle(function () { 
@@ -32,13 +33,27 @@ window.addEventListener('scroll', _.throttle(function () {
          opacity:0,
          display: 'none'
       });
+      gsap.to(toTopEl, .2, { //버튼보이기
+         x: 0
+       });
    }else{
       gsap.to(badgeEl, .6, { //배지 보이기
          opacity:1,
          display: 'block'
       });
+       gsap.to(toTopEl, .2, { //버튼 숨기기
+         x: 100
+       });
    }
 },300));
+
+
+toTopEl.addEventListener('click', function () {
+   gsap.to(window, .7,{
+      scrollTo:0
+   });
+});
+
 
 
 //-------section 애니메이션-------//
