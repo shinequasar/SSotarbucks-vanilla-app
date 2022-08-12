@@ -3,12 +3,16 @@
 - 개인연습용 플젝
 - 배포환경 : Netlify 
 - 배포 URL :  [https://silver-marigold-a6b265.netlify.app/](https://silver-marigold-a6b265.netlify.app/)
+- 구현화면
+
+<p align="center"><img src="https://user-images.githubusercontent.com/40741363/184283193-153a7573-1bb7-480d-9160-30054e504700.png" width="30%"/></p>
 
 </br>
+
 ---
  </br></br>
 
-### 프로젝트 구조 (개발 중)
+### 프로젝트 구조 
 
 ```
 starbucks
